@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chamada</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'estiloP.css') }}" />
+  </head>
+<body>    
+<header>
+<nav class="nav">
+
+    <a class="logo" href="/">Chamada Online</a>
+        
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+        
+
+    <ul class="nav">
+      <li><a href="/cadastro">Cadastrar Aluno</a></li>
+      <li><a href="/chamada">Realizar Chamada</a></li>
+      <li><a href="/config">Configurações</a></li>
+    </ul>
+      
+</nav>
+
+</header>
+
+<main class="main">
+{% block content %}
+
+{% endblock %}
+</main>
+</body>
+</html>

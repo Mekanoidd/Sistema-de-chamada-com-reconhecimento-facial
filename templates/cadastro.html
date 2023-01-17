@@ -1,0 +1,16 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+<form action="#" method="post" class="form" >
+    <p class="corpo">Nome do Aluno:</p>
+    <p><input class="bt2" type="text" name="nome" /></p>
+    <p><input class="bt" type="submit" value="Enviar" /></p>
+</form>
+<h1 class="Rtext2">Por favor centralize seu rosto, e espere até que ele seja detectado</h1>
+<br><br><br><br><br><br>
+<img class="Rtext3" src="{{ url_for('detect') }}">
+            
+    
+
+{% endblock %}

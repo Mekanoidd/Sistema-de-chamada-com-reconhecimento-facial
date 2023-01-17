@@ -1,0 +1,213 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+ 
+}
+
+a {
+
+	color: darkcyan;
+	text-decoration: none;
+	transition: 0.3s;
+
+
+}
+.form {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 30%;
+	min-width: 350px;
+	border-radius: 5px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	}
+
+.form2 {
+		position: absolute;
+		margin-top: 40px;
+		margin-left: 30%;
+		height: 40%;
+		width: 40%;
+		min-width: 350px;
+		border-radius: 5px;
+		box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+		padding: 20px;
+	}
+
+.bt {
+background-color: lightcyan;
+width: 60%;
+height: 25%;
+margin-top: 50px;
+margin-left: 20%;
+margin-right: 20%;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+padding: 13px;
+border-radius: 5px;
+border-color: black;
+font-family:-apple-system, Helvetica, Arial, sans-serif;
+font-size:25px;
+opacity: 0.8;
+color: darkslateblue;
+}
+
+.bthef {
+	background-color: lightcyan;
+	width: 60%;
+	height: 25%;
+	margin-left: 25%;
+	margin-right: 20%;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	padding: 13px;
+	border-radius: 5px;
+	border-color: black;
+	font-family:-apple-system, Helvetica, Arial, sans-serif;
+	font-size:25px;
+	opacity: 0.8;
+	color: darkslateblue;
+	}
+
+.bt2 {
+	width: 90%;
+	height: 50%;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	padding: 13px;
+	border-radius: 5px;
+	font-family:-apple-system, Helvetica, Arial, sans-serif;
+	font-size:25px;
+	color: darkslateblue;
+	}
+
+a:hover{
+opacity: 0.7;
+
+ }
+
+.logo {
+ font-size: 24px;
+ text-transform: uppercase;
+ letter-spacing: 4px;
+
+
+}
+
+.main {
+    height: 90vh;
+	background:lightgreen;
+    background-size: cover; 
+}
+
+.nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
+background: #23232e;
+height: 10vh;
+list-style: none;
+    
+
+}
+.bt:hover{
+	opacity: 1.2;
+	cursor:pointer;
+	
+	}
+.bt2:hover{
+	cursor:text;
+	}
+
+.nav li {
+ letter-spacing: 3px;
+ margin-left: 20px;
+ 
+
+}
+
+.Rtext {
+margin-left: 15%;
+margin-top: 2%;
+margin-bottom: 50px;
+font-family: -apple-system, Helvetica, Arial, sans-serif;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+padding: 13px;
+border-radius: 5px;
+position: absolute;
+
+}
+
+.Rtext2 {
+	margin-left: 50%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	font-family: -apple-system, Helvetica, Arial, sans-serif;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+	padding: 13px;
+	border-radius: 5px;
+	position: absolute;
+	
+	}
+
+	.Rtext3 {
+		height: 50%;
+		width: 50%;
+		margin-left: 48%;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		text-align: center;
+		font-family: -apple-system, Helvetica, Arial, sans-serif;
+		box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+		padding: 13px;
+		border-radius: 5px;
+		position: absolute;
+		
+		}
+.frame {
+
+margin-left: 50%;
+margin-top: 40px;
+margin-bottom: 50px;
+font-family: -apple-system, Helvetica, Arial, sans-serif;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+padding: 13px;
+border-radius: 5px;
+position: absolute;
+}
+
+
+.corpo {
+font-family:-apple-system, Helvetica, Arial, sans-serif;
+font-size:25px;
+color: darkslateblue;
+}
+.corpo1 {
+	font-family:-apple-system, Helvetica, Arial, sans-serif;
+	font-size:25px;
+	color: darkslateblue;
+	margin-left: 50.5%;
+	position: absolute;
+	}
+
+bt {
+text-align: left;
+font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
+background: black;
+height: 20px;
+}
+
+.barb {
+color: darkcyan;
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: -apple-system, Helvetica, Arial, sans-serif;
+background: #23232e;
+height: 10vh;
+margin-top: 0px;
+font-size: 24px;
+text-align: justify;
+
+}
+
